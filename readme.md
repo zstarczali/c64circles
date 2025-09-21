@@ -1,7 +1,7 @@
 # C64 Hi-Res Circle Drawing Demo
 This project is a Commodore 64 demo that uses the hi-res bitmap mode and implements the Midpoint/Bresenham circle algorithm (integer-only, no floating point) to draw circles on the bitmap screen. The code takes care of VIC-II initialization, screen/bitmap memory setup, proper color handling (hi-res mode: 1 bit/pixel, one foreground + one background color per cell), and includes a fast screen clear routine.
 
-![Commodore 64 Emulator Screenshot](https://github.com/zstarczali/circles/raw/main/circles.png) 
+![Commodore 64 Emulator Screenshot](https://github.com/zstarczali/circles/raw/main/images/circles.png) 
 
 ## Features
 - Hi-res bitmap mode: bitmap at $6000, screen matrix (color nibbles) at $5C00
