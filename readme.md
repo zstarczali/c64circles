@@ -68,4 +68,4 @@ The program will autostart thanks to the BASIC stub.
 ## Known Limitations
 - Only 1 foreground color per 8×8 block (hi-res restriction)
 - No clipping → drawing outside screen may cause artifacts
-- Very large radii may result in extra drawing time
+- Very large radius may result in extra drawing time
